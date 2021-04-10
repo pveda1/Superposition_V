@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F1DA5C59262133810075E093 /* Superposition_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA5C58262133810075E093 /* Superposition_ProjectApp.swift */; };
-		F1DA5C5B262133810075E093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA5C5A262133810075E093 /* ContentView.swift */; };
+		F1DA5C5B262133810075E093 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA5C5A262133810075E093 /* Start.swift */; };
 		F1DA5C5D262133820075E093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DA5C5C262133820075E093 /* Assets.xcassets */; };
 		F1DA5C60262133820075E093 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DA5C5F262133820075E093 /* Preview Assets.xcassets */; };
 		F1DA5C692621550F0075E093 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1DA5C682621550F0075E093 /* Roboto-Regular.ttf */; };
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		F1DA5C55262133810075E093 /* Superposition_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superposition_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DA5C58262133810075E093 /* Superposition_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superposition_ProjectApp.swift; sourceTree = "<group>"; };
-		F1DA5C5A262133810075E093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1DA5C5A262133810075E093 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		F1DA5C5C262133820075E093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DA5C5F262133820075E093 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1DA5C61262133820075E093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		F1DA5CB0262173510075E093 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F1DA5C5A262133810075E093 /* ContentView.swift */,
+				F1DA5C5A262133810075E093 /* Start.swift */,
 				F1DA5C6E2621561F0075E093 /* Main.swift */,
 				F1DA5C74262156970075E093 /* Timeline.swift */,
 				F1DA5C78262156B10075E093 /* Simulation.swift */,
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DA5C6F2621561F0075E093 /* Main.swift in Sources */,
-				F1DA5C5B262133810075E093 /* ContentView.swift in Sources */,
+				F1DA5C5B262133810075E093 /* Start.swift in Sources */,
 				F1DA5C79262156B10075E093 /* Simulation.swift in Sources */,
 				F1DA5C852621662B0075E093 /* WomanLeader.swift in Sources */,
 				F1DA5C75262156970075E093 /* Timeline.swift in Sources */,
