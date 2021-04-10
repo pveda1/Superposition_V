@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Malala Yousafzai",
+        "description": "Pakistani activist for female education",
+        "birthDate": "Born July 12, 1997",
+        "imageName": "Malala Yousafzai"
+    },
+    {
+        "name": "Arundhati Bhattacharya",
+        "description": "First woman to head State Bank of India \nRevolutionized women’s rights in workplace",
+        "birthDate": "Born March 18, 1956",
+        "imageName": "Arundhati Bhattacharya"
+    },
+    {
+        "name": "Angela Merkel",
+        "description": "Chancellor of germany \nTIME’s person of the year",
+        "birthDate": "Born July 17, 1954",
+        "imageName": "Angela Merkel"
+    },
+    {
+        "name": "Park Geun-hye",
+        "description": "First female president of South Korea",
+        "birthDate": "Born February 2, 1952",
+        "imageName": "Park Geun-hye"
+    },
+    {
+        "name": "Sonia Gandhi",
+        "description": "President of Indian National Congress",
+        "birthDate": "Born Dec 9, 1946",
+        "imageName": "Sonia Gandhi"
+    },
+    {
+        "name": "Ellen Johnson Sirleaf",
+        "description": "First female president of Africa \nWon nobel peace prize",
+        "birthDate": "Born October 29, 1938",
+        "imageName": "Ellen Johnson Sirleaf"
+    }
+]
+
+
