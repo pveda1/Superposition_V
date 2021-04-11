@@ -26,8 +26,10 @@ struct StartView: View {
                 
                 Spacer()
                     .frame(height: 40)
-                
-                NavigationLink(destination: Simulation()) {
+                /**
+                Button(action: {
+                    Main()
+                }) {
                     Text("get started")
                         .navigationBarTitle("")
                         .navigationBarHidden(true)
@@ -38,6 +40,20 @@ struct StartView: View {
                         .background(Color(red: 0.19, green: 0.16, blue: 0.64, opacity: 0.80))
                         .cornerRadius(20)
                 }
+                 */
+                
+                NavigationLink(destination: Main()) {
+                    Text("get started")
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true)
+                        .font(.custom("Roboto-Bold", size: 20))
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
+                        .frame(width: 297, height: 56)
+                        .background(Color(red: 0.19, green: 0.16, blue: 0.64, opacity: 0.80))
+                        .cornerRadius(20)
+                }
+                .navigationBarBackButtonHidden(true)
                 
                 HStack {
                     Text("already have an account?")
@@ -59,3 +75,4 @@ struct StartView_Previews: PreviewProvider {
         StartView()
     }
 }
+
