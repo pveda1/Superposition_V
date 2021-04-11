@@ -10,11 +10,12 @@ import SwiftUI
 struct Main: View {
     var body: some View {
         TabView {
-            //HomeView()
             Simulation()
                 .tabItem {
                     Image("Pencil")
                 }
+            
+            
             
             Timeline()
                 .tabItem {

@@ -40,6 +40,7 @@ struct Simulation: View {
                 }
               
             }
+            .frame(height: 150)
             
             ScrollView {
                

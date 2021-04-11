@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F121C8FE26226467000A5423 /* LeaderDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121C8FD26226467000A5423 /* LeaderDescription.swift */; };
 		F1DA5C59262133810075E093 /* Superposition_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA5C58262133810075E093 /* Superposition_ProjectApp.swift */; };
 		F1DA5C5B262133810075E093 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA5C5A262133810075E093 /* Start.swift */; };
 		F1DA5C5D262133820075E093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DA5C5C262133820075E093 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F121C8FD26226467000A5423 /* LeaderDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderDescription.swift; sourceTree = "<group>"; };
 		F1DA5C55262133810075E093 /* Superposition_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superposition_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DA5C58262133810075E093 /* Superposition_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superposition_ProjectApp.swift; sourceTree = "<group>"; };
 		F1DA5C5A262133810075E093 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F1DA5C78262156B10075E093 /* Simulation.swift */,
 				F1DA5CB6262181040075E093 /* GameButton.swift */,
 				F1DA5C842621662B0075E093 /* WomanLeader.swift */,
+				F121C8FD26226467000A5423 /* LeaderDescription.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				F1DA5C79262156B10075E093 /* Simulation.swift in Sources */,
 				F1DA5C852621662B0075E093 /* WomanLeader.swift in Sources */,
 				F1DA5C75262156970075E093 /* Timeline.swift in Sources */,
+				F121C8FE26226467000A5423 /* LeaderDescription.swift in Sources */,
 				F1DA5C7C262160E50075E093 /* Leader.swift in Sources */,
 				F1DA5C59262133810075E093 /* Superposition_ProjectApp.swift in Sources */,
 				F1DA5CB7262181040075E093 /* GameButton.swift in Sources */,
