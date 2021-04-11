@@ -170,12 +170,12 @@ struct Simulation: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     .frame(width: 420, height: 340)
                 
-                Spacer()
+                //Spacer()
             }
-            .frame(width: 420, height: 650)
+            .frame(width: 420, height: 700)
            
-           Spacer()
-            .frame(height: 100)
+          // Spacer()
+            //.frame(height: 100)
             
 
         }

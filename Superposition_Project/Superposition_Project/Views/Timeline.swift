@@ -70,23 +70,30 @@ struct Timeline: View {
                                     Image("ArundhatiBhattacharya")
                                     Text("Arundhati Bhattacharya")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
                     
                             Spacer()
                                 .frame(height: 140)
                             
-                            NavigationLink(destination: LeaderDescription(imageName: "ParkGeun-hye", leaderName: "Park Geun-hye", description: "First female president of South Korea", birthDate: "Born February 2, 1952")) {
+                            NavigationLink(destination: LeaderDescription(imageName: "KamalaHarris", leaderName: "Kamala Harris", description: "First female Vice President of the United States", birthDate: "Born on October 20, 1964")) {
                                 VStack(alignment: .center) {
-                                    Image("ParkGeun-hye")
-                                    Text("Park Geun-hye")
+                                    Image("KamalaHarris")
+                                    Text("Kamala Harris")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
+
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
 
@@ -97,9 +104,12 @@ struct Timeline: View {
                                     Image("EllenJohnsonSirleaf")
                                     Text("Ellen Johnson Sirleaf")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
                             
@@ -112,9 +122,13 @@ struct Timeline: View {
                                     Image("MalalaYousafzai")
                                     Text("Malala Yousafzai")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
+
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
 
@@ -126,9 +140,13 @@ struct Timeline: View {
                                     Image("AngelaMerkel")
                                     Text("Angela Merkel")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
+
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
 
@@ -140,9 +158,13 @@ struct Timeline: View {
                                     Image("SoniaGandhi")
                                     Text("Sonia Gandhi")
                                         .font(Font.custom("Roboto-Bold", size: 12))
+                                        .foregroundColor(.black)
+
                                     
                                     Text("learn more...")
                                         .font(Font.custom("Roboto-Regular", size: 10)).underline()
+                                        .foregroundColor(.black)
+
                                 }
                             }
                             

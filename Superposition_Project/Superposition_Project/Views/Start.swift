@@ -14,7 +14,7 @@ struct StartView: View {
                 Spacer()
                 Text("Welcome to")
                     .font(Font.custom("Roboto-Bold", size: 40))
-                Text("[insert name]")
+                Text("leadHER")
                     .font(Font.custom("Roboto-Bold", size: 44))
                     .foregroundColor(Color(red: 0.44, green: 0.39, blue: 0.88))
                 Text("leading females to leadership")

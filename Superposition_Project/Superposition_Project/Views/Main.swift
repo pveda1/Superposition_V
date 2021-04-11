@@ -13,13 +13,21 @@ struct Main: View {
             Simulation()
                 .tabItem {
                     Image("Pencil")
+                        .padding(.top)
                 }
             
-            
+            Resources()
+                .tabItem {
+                    Image("Video")
+                        .padding(.top)
+
+                }
             
             Timeline()
                 .tabItem {
                     Image("Case")
+                        .padding(.top)
+
                 }
             //AfterDisaster()
               //  .tabItem {
